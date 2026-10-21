@@ -29,6 +29,11 @@ namespace TrailA
             // Add services to the container.
 
 
+
+
+            // commit update get
+
+
             var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["JWT:key"]));
             builder.Services.AddAuthentication(op =>
             {
